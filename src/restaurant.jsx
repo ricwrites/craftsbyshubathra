@@ -9,9 +9,9 @@ return (
 <>
 <img src = {products} className = "menucard" />
 <div className = "menucontents">
-<h1 className = "menuhead"> Menu </h1>
+<h1 className = "menuhead">  </h1>
 
-<h2 className = "menusubl"> Starters </h2>
+<h2 className = "menusubl">  </h2>
 
 </div>
 </>
