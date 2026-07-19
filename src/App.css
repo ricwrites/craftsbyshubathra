@@ -1,0 +1,181 @@
+
+.homescene {
+position: relative;
+width:100%;
+display:block;
+background-size: cover;
+background-position: center;
+}
+
+#root {
+min-height: 100vg;
+background:#ecd5b3;
+}
+
+.home-container {
+position: relative;
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;}
+
+.bizname {
+position: absolute;
+top: 20%;
+left:30%;
+color: #000000;
+font-size: 40px;
+}
+
+.homebutton {
+position:absolute;
+top:61%;
+left:40%;
+height: 6%;
+width: 22%;
+transform: translate(-50%, -50%);
+opacity: 0;
+}
+
+.menucard {
+position: absolute;
+background-position: center;
+width: 90%;
+height: auto;
+top: 5%;
+left: 10%;
+}
+
+
+.Products {
+position:absolute;
+top:43%;
+left:7%;
+width: 32%;
+height: 17%;
+transform: rotate(-4deg);
+opacity: 10;
+background-color: transparent;
+border: solid orange;
+color: transparent;
+}
+
+.Testimonials {
+position:absolute;
+top:67%;
+left:12%;
+width: 25%;
+height: 8%;
+transform: skewX(40deg) rotate(-10deg);
+
+opacity: 1;
+background-color: transparent;
+border: solid orange;
+color: transparent;
+}
+
+.Contact {
+position:absolute;
+top:52%;
+left:42%;
+width: 14%;
+height: 12%;
+opacity: 1;
+transform: rotate(-1deg);
+color: transparent;
+background-color: transparent;
+border: solid orange;
+}
+
+.About {
+position:absolute;
+top:1%;
+left:27%;
+width: 70%;
+height: 12%;
+opacity: 0;
+}
+
+
+.splhead {
+position: absolute;
+top: 10%;
+left: 28%;
+color: white;
+font-family:'Lucida Handwriting',cursive;}
+
+.splitems {
+position: absolute;
+top: 24%;
+left: 32%;
+color: beige;}
+
+.menucontents {
+position: absolute;
+top:28%;
+left: 20%;
+color: white;
+font-size: clamp(15px,3vw,20px)
+}
+
+.menuhead {
+color: #fff;
+position: absolute;
+left: 42%;
+top: -42%;
+}
+
+.menusubl {
+color: yellow;
+font-size: clamp(18px,3vw,22px)}
+
+
+.contactwhatsapp {
+position: absolute;
+top: 10%;
+left: 35%;
+width:50%;
+font-size: clamp(22px,3vw,40px)}
+
+.contactinsta {
+position: absolute;
+top: 43%;
+left: 35%;
+font-size: clamp(22px,3vw,40px)
+}
+
+.contactcall {
+position: absolute;
+top: 69%;
+left: 35%;
+font-size: clamp(22px,3vw,40px)
+}
+
+.contacthead {
+position: absolute;
+top: 78%;
+left: 50%;
+font-size: clamp(22px,3vw,40px)
+}
+
+body {
+background-color: #ecd5b3;}
+
+.restaurant-container{
+    position:relative;
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.restfixes{
+    display:flex;
+    width:100%;
+    height:auto;
+}
+
+.backButton{
+    position:absolute;
+    top:2%;
+    left:2%;
+    z-index:100;
+}
